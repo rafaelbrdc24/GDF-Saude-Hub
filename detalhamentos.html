@@ -67,7 +67,7 @@
         <div class="spinner"></div>
         <h1>📊 Redirecionando para Detalhamentos...</h1>
         <p>Aguarde enquanto abrimos a página de detalhamentos para você.</p>
-        <a href="https://script.google.com/a/macros/maida.health/s/AKfycbytwAp6YnU6f0YKy_OlNMt23VPEuG1hpq6KhBqhBzLqSL9YbeEKHWkOQLNuJS6NCyUSIQ/exec" class="btn" id="redirectBtn">
+        <a href="https://gdf.maida.health/contas-a-receber/faturas/orgao?ano=2026&mes=4" class="btn" id="redirectBtn">
             Clique aqui se não redirecionar automaticamente
         </a>
     </div>
@@ -75,13 +75,13 @@
     <script>
         // Tenta redirecionar automaticamente após 2 segundos
         setTimeout(function() {
-            window.location.href = 'https://script.google.com/a/macros/maida.health/s/AKfycbytwAp6YnU6f0YKy_OlNMt23VPEuG1hpq6KhBqhBzLqSL9YbeEKHWkOQLNuJS6NCyUSIQ/exec';
+            window.location.href = 'https://gdf.maida.health/contas-a-receber/faturas/orgao?ano=2026&mes=4';
         }, 2000);
 
         // Se o redirecionamento automático falhar, o usuário pode clicar no botão
         document.getElementById('redirectBtn').addEventListener('click', function(e) {
             e.preventDefault();
-            window.open('https://script.google.com/a/macros/maida.health/s/AKfycbytwAp6YnU6f0YKy_OlNMt23VPEuG1hpq6KhBqhBzLqSL9YbeEKHWkOQLNuJS6NCyUSIQ/exec', '_blank');
+            window.open('https://gdf.maida.health/contas-a-receber/faturas/orgao?ano=2026&mes=4', '_blank');
         });
     </script>
 </body>
